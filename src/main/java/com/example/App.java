@@ -9,4 +9,8 @@ public class App {
     public boolean isReadyForMerge(boolean ciPassed, int reviewCommentCount) {
         return ciPassed && reviewCommentCount == 0;
     }
+
+    public static void sayHellow() {
+        System.out.println("I love you");
+    }
 }
