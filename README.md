@@ -102,3 +102,13 @@ gh pr merge --squash --auto
 - Review 检查清单
 - `gh run view --log` 的失败排查脚本
 - 自动读取评论并修复的 MCP / Agent 能力
+
+## 本地练习提交示例
+
+如果你只是想先练一次最小提交流程，可以直接这样做：
+
+```bash
+git checkout -b feat/local-pr-practice
+git add -A
+git commit -m "docs: add local practice note"
+```
